@@ -1,7 +1,8 @@
+//Program to print all the prime numbers within a given range
 #include <bits/stdc++.h>
 using namespace std;
 
-void primeSieve(int n)
+void printPrime(int n)
 {
   int prime[100] = {0};
   for (int i = 2; i <= n; i++)
@@ -25,5 +26,9 @@ int main()
   int n;
   cin >> n;
 
-  primeSieve(n);
+  printPrime(n);
 }
+
+//Time complexity : n*log(log(n)) 
+//Marked is represented by 1 and unmarked is represented by 0
+//Last loop is to print unmarked elements(Those are the required prime numbers)
