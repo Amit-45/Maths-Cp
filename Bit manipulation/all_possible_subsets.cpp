@@ -17,3 +17,20 @@ int main()
     int n = sizeof(arr) / sizeof(arr[0]);
     allPossibleSubsets(arr, n);
 }
+/*Output:  
+a 
+b
+a b
+c
+a c
+b c
+a b c
+d
+a d
+b d
+a b d
+c d
+a c d
+b c d
+a b c d
+/*
