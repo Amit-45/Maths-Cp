@@ -1,4 +1,4 @@
-// Conversion of integer into Binary code
+// Conversion of binary code to integer
 #include <iostream>
 using namespace std;
 
